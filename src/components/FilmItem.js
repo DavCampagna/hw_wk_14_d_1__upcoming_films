@@ -4,12 +4,11 @@ class FilmItem extends Component {
 
   render() {
     return(
-      <div>
-        Here is the FilmItem
+      <div className="film">
+        <p>{this.props.name}</p>
       </div>
     )
   }
-
 }
 
 export default FilmItem;
