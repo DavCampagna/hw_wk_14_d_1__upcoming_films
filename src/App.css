@@ -1,7 +1,3 @@
-* {
-  background-color: hsl(180, 100%, 95%);
-}
-
 h1 {
   color: purple;
 }
@@ -10,9 +6,27 @@ h1 {
   padding: 20px;
 }
 
+.film-list {
+  text-align: left;
+  position: relative;
+  left: 280px;
+}
+
 .film-box {
   padding: 20px;
   text-align: center;
+  border: 10px solid purple;
+  background-color: hsl(180, 100%, 95%);
+}
+
+a:link, a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: magenta;
+  text-decoration: none;
 }
 
 #upcoming-films-btn:link, #upcoming-films-btn:visited {
@@ -22,6 +36,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  top: 50px;
 }
 
 #upcoming-films-btn:hover, #upcoming-films-btn:active {
